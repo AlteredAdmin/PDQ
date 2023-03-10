@@ -1,5 +1,6 @@
+<#
 ####################################################################
-$text = @"
+
 
 _______        _______ _______  ______ _______ ______       _______ ______  _______ _____ __   _
 |_____| |         |    |______ |_____/ |______ |     \      |_____| |     \ |  |  |   |   | \  |
@@ -23,7 +24,7 @@ ETH: 0xef053b0d936746Df00C9CCe0454b7b8afb1497ac
 
 ####################################################################
 
-<#
+
 .SYNOPSIS
     Title: Run Windows Updates
     OS Support: 
@@ -44,12 +45,9 @@ ETH: 0xef053b0d936746Df00C9CCe0454b7b8afb1497ac
     Author:         Altered Admin
     Email:          
     Date:           Jan 13 2023
-#>
-
-Write-Host $text
-
 ####################################################################
 
+#>
 $searchQuery = "IsInstalled=0 and Type='Software' and IsHidden=0"
 
 $Session = New-Object -ComObject Microsoft.Update.Session
