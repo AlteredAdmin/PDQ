@@ -14,18 +14,6 @@ It looks for completed Dell update installation results and returns the latest s
 
 By default, the scanner returns the **10 most recent successful installed updates**.
 
-## Suggested PDQ scanner name
-
-```text
-Dell DCU Install History
-```
-
-## Suggested PDQ scan profile name
-
-```text
-Dell Command Update Audit
-```
-
 ## Requirements
 
 * Windows endpoint managed by PDQ Inventory
