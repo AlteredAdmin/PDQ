@@ -2,12 +2,6 @@
 
 A PowerShell-based **PDQ Inventory scanner** that reads the Dell Command | Update `Activity.log` and returns the most recent successful Dell update installations, including drivers, BIOS, firmware, applications, and other Dell update types.
 
-## Recommended repository name
-
-```text
-pdq-dell-dcu-install-history-scanner
-```
-
 ## What it does
 
 This scanner parses Dell Command | Update activity logs from:
