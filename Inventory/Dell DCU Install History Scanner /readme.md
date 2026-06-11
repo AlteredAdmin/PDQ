@@ -1,4 +1,4 @@
-# Dell DCU Install History Scanner for PDQ
+# Dell DCU Install History Scanner
 
 A PowerShell-based **PDQ Inventory scanner** that reads the Dell Command | Update `Activity.log` and returns the most recent successful Dell update installations, including drivers, BIOS, firmware, applications, and other Dell update types.
 
